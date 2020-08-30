@@ -1,0 +1,64 @@
+body{
+    background-color: #50514F;
+    margin:0px;
+    padding:0px;
+    color: #fff;
+}
+
+.heading{
+    transition: all 1s ease-in-out 3s;
+    box-shadow: 8px 8px white;
+
+}
+
+
+h2{
+    
+    text-align: center;
+    border: 2px solid black;
+    margin:10px 8px;
+    padding:20px 28px;
+    transition: all 1s ease-in-out 3s;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.input-alarm{
+    margin:19px 8px;
+    
+
+}
+#inputalarm{
+    background: none;
+    border: none;
+    padding: 17px 15px;
+    margin:8px 5px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#inputalarm:focus{
+    outline: none;
+}
+
+
+#btnalarm{
+    border-radius:6px;
+    border-color: black;
+    color: floralwhite;
+    padding: 6px 5px;
+    background-color: black;
+}
+#alarmvalid{
+
+    color:black;
+    font-weight: bolder;
+    
+
+}
